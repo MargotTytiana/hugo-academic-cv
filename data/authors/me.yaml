@@ -16,7 +16,7 @@ bio: |
   I am .........
 
 affiliations:
-  - name: Tampere University
+  - name: Tampere University, Finland
     url: https://www.tuni.fi/en/study-with-us/signal-processing-and-machine-learning-computing-sciences-and-electrical-engineering
 
 links:
@@ -27,10 +27,8 @@ links:
     url: https://github.com/MargotTytiana
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/yueyao-tian-70859b349/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+  - icon: brands/instagram
+    url: https://www.instagram.com/margotytiana/
 
 interests:
   - Large Language Models
@@ -39,24 +37,21 @@ interests:
   - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS Signal Processing and Machine Learning
+    institution: Tampere University, Finland
+    start: 2024/08
+    end: 2026/03
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+
+  - degree: BS Software Engineering
+    institution: Tiangong University, China
+    start: 2020/09
+    end: 2024/06
 
 experience:
   - role: Senior AI Research Scientist
