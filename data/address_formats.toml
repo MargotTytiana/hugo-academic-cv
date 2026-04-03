@@ -1,0 +1,7 @@
+[en-us]
+  order = ['street', 'city', 'region', 'postcode']
+  delimiter = ', '
+
+[zh-cn]
+  order = ['region', 'city', 'street', 'postcode']
+  delimiter = ''
