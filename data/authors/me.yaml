@@ -39,20 +39,18 @@ interests:
 education:
   - degree: "MS in <br> Signal Processing and Machine Learning"
     institution: Tampere University, Finland
-    start: start： 2024/08
-    end: end：  2026/03 (expected)
+    start: 2024/08
+    end: 2026/04 (expected)
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-
-education:
   - degree: "BS in <br> Software Engineering"
     institution: Tiangong University, China
-    start: start： 2020/09
-    end: end： 2024/06
+    start: 2020/09
+    end: 2024/06
 
 experience:
   - role: Senior AI Research Scientist
