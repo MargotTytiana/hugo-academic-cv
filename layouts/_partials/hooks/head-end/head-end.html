@@ -1,0 +1,22 @@
+<style>
+/* ====================================================
+   强制放宽 Publications (Paper) 页面的内容宽度
+==================================================== */
+
+/* 1. 放宽包裹 Abstract 和 Type 的元数据网格 */
+article .max-w-prose {
+  max-width: 1000px !important; 
+}
+
+/* 2. 放宽下方的论文正文区域 */
+article .prose {
+  max-width: 1000px !important; 
+}
+
+/* 3. 确保在超宽状态下依然保持完美居中 */
+article .max-w-prose, 
+article .prose {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+</style>

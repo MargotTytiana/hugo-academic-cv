@@ -12,25 +12,22 @@ h1, h2, h3, h4, h5, h6, .text-xl, .text-2xl, .text-3xl, .font-bold {
 }
 
 /* ====================================================
-   放宽 Paper 详情页（以及所有文章页）的宽度限制
+   强制放宽 Publications (Paper) 页面的内容宽度
 ==================================================== */
 
-/* 1. 覆盖 Tailwind 排版插件的默认最大宽度 */
-.prose {
-  max-width: 800px !important; /* 你可以根据需要把 1000px 改得更大，比如 1200px */
+/* 1. 放宽包裹 Abstract 和 Type 的元数据网格 */
+article .max-w-prose {
+  max-width: 2100px !important; 
 }
 
-/* 2. 覆盖外层容器的 Tailwind 宽度限制类名 */
-.max-w-prose,
-.max-w-3xl,
-.max-w-4xl,
-article.mx-auto {
-  max-width: 800px !important; 
+/* 2. 放宽下方的论文正文区域 */
+article .prose {
+  max-width: 2100px !important; 
 }
 
-/* 3. （可选）如果你希望页面宽度随屏幕大小动态变化，可以使用百分比 */
-/*
-.prose, .max-w-prose, .max-w-3xl {
-  max-width: 85% !important; 
+/* 3. （可选）如果你觉得原本居中的文字跟着变宽后，显得太靠左了，可以加上这行让它在超宽状态下依然保持完美居中 */
+article .max-w-prose, 
+article .prose {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-*/
