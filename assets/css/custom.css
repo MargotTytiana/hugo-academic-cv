@@ -10,3 +10,27 @@ html, body {
 h1, h2, h3, h4, h5, h6, .text-xl, .text-2xl, .text-3xl, .font-bold {
   font-family: 'Fjord One', serif !important;
 }
+
+/* ====================================================
+   放宽 Paper 详情页（以及所有文章页）的宽度限制
+==================================================== */
+
+/* 1. 覆盖 Tailwind 排版插件的默认最大宽度 */
+.prose {
+  max-width: 800px !important; /* 你可以根据需要把 1000px 改得更大，比如 1200px */
+}
+
+/* 2. 覆盖外层容器的 Tailwind 宽度限制类名 */
+.max-w-prose,
+.max-w-3xl,
+.max-w-4xl,
+article.mx-auto {
+  max-width: 800px !important; 
+}
+
+/* 3. （可选）如果你希望页面宽度随屏幕大小动态变化，可以使用百分比 */
+/*
+.prose, .max-w-prose, .max-w-3xl {
+  max-width: 85% !important; 
+}
+*/

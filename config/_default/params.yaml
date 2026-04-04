@@ -116,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {2026} {Yueyao Tian}. This work is licensed under {license}"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
