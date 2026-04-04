@@ -10,24 +10,12 @@ html, body {
 h1, h2, h3, h4, h5, h6, .text-xl, .text-2xl, .text-3xl, .font-bold {
   font-family: 'Fjord One', serif !important;
 }
-
 /* ====================================================
-   强制放宽 Publications (Paper) 页面的内容宽度
+   终极强制放宽论文/项目详情页（无视 Tailwind 桌面端限制）
 ==================================================== */
 
-/* 1. 放宽包裹 Abstract 和 Type 的元数据网格 */
-article .max-w-prose {
-  max-width: 2100px !important; 
-}
-
-/* 2. 放宽下方的论文正文区域 */
-article .prose {
-  max-width: 2100px !important; 
-}
-
-/* 3. （可选）如果你觉得原本居中的文字跟着变宽后，显得太靠左了，可以加上这行让它在超宽状态下依然保持完美居中 */
-article .max-w-prose, 
-article .prose {
-  margin-left: auto !important;
-  margin-right: auto !important;
+.max-w-prose,
+.prose,
+.lg\:prose-xl {
+    max-width: 750px !important;
 }

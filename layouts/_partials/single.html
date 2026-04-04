@@ -182,7 +182,7 @@
         - reflect.IsImageResourceProcessable → false for SVG (not processable by Hugo).
         - GIF: processable by Hugo but we skip to preserve animation frames.
       */}}
-      {{ $canProcess := and (reflect.IsImageResourceProcessable $featured) (ne $featured.MediaType.SubType "gif") }}
+      {{ $canProcess := and (ne $featured.MediaType.SubType "svg") (ne $featured.MediaType.SubType "gif") }}
       {{ if not $canProcess }}
         {{/* SVG or GIF: render directly without responsive processing */}}
         <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16">
@@ -232,7 +232,7 @@
 
       {{/* EVENT / PUBLICATION METADATA */}}
       {{ if .Params.abstract | or (eq .Type "publications") | or (eq .Type "events") }}
-        <div class="max-w-5xl grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+        <div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6" style="max-width: 1100px !important;">
 
         {{ if .Params.abstract }}
           <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
@@ -285,7 +285,7 @@
       </div>
       {{ end }}
 
-      <div class="prose prose-slate max-w-5xl lg:prose-xl dark:prose-invert" data-pagefind-body>
+      <div class="prose prose-slate lg:prose-xl dark:prose-invert" data-pagefind-body style="max-width: 1100px !important;">
         {{ with .Section }}
           <span data-pagefind-filter="type" style="display:none;">{{ . }}</span>
         {{ end }}
@@ -297,7 +297,7 @@
 
       {{ partial "components/last-edited.html" . }}
 
-      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
+      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5" style="max-width: 1100px !important;">
         {{ .Scratch.Set "invert_pager" true }}
         {{ partial "page_footer" . }}
       </div>
