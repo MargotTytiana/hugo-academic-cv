@@ -1,11 +1,11 @@
 ---
-title: "An example preprint / working paper"
+title: "Master Thesis Working Paper"
 authors:
 - me
-date: "2019-04-07T00:00:00Z"
+date: "2026-03-31T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-03-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,13 +16,19 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Most speaker recognition systems rely on spectral features such as MFCCs, which treat speech production as a linear process. Under clean acoustic conditions, this assumption holds, but the spectral envelope that these features measure is directly disrupted by additive noise, causing recognition performance to degrade sharply in real-world environments. This thesis proposes ChaoNet, a speaker recognition framework based on the premise that a nonlinear, chaotic system generates speech. Instead of extracting spectral features, ChaoNet reconstructs the phase space of each speech frame and extracts chaotic features through Multi-scale Lyapunov Spectrum Analysis (MLSA) and Recurrence Quantification Analysis (RQA). These features describe the dynamic behavior of the vocal tract, which remains more stable under noise than the spectral envelope. The extracted features drive a chaotic embedding layer based on controlled Lorenz neurons, in which speaker-specific information is encoded in the geometry of strange attractors. A bifurcation control mechanism allows the system to adapt to different dynamical regimes for different speakers. Experiments on LibriSpeech show that ChaoNet achieves 94–97% accuracy under clean conditions with 26 speakers and 92.75% with 251 speakers. The main advantage appears under noisy conditions - at 20 dB SNR, ChaoNet retains an average of 82.6% of its clean performance across four noise types, compared to 43.6% for MFCC-MLP and 34.8% for Mel-MLP. This advantage comes at a cost - ChaoNet has about 8 times as many parameters and takes about 7 times longer to train than the baseline. Ablation studies show that attractor pooling contributes the most to performance, while the phase synchronization loss, despite being theoretically motivated, consistently hurts accuracy. This failure reveals a fundamental mismatch - chaotic systems amplify input differences through sensitive dependence on initial conditions, so different utterances from the same speaker produce divergent trajectories regardless of speaker identity. This finding indicates that chaos synchronization theory cannot be directly transferred to feedforward architectures without fundamental redesign.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A novel speaker recognition framework integrating chaos theory with deep neural networks.
 
 tags:
-- Large Language Models
+- Chaos Theory
+- Speaker Recognition
+- Audio Processing
+- Signal Processing
+- MLSA & RQA
+- Chaotic Features
+- Chaotic Neural Networks
 
 featured: true
 
@@ -31,15 +37,15 @@ hugoblox:
     arxiv: 1512.04133v1
 
 links:
-- type: preprint
-  provider: arxiv
+- type: working paper
+  provider: Tampere University
   id: 1512.04133v1
 - type: code
-  url: https://github.com/HugoBlox/kit
+  url: https://github.com/MargotTytiana
 - type: slides
-  url: https://www.slideshare.net/
+  url: https://drive.google.com/file/d/1RqtpSIna04B5tagm4lh_uFQe-_QmSvxd/view?usp=drive_link
 - type: dataset
-  url: "#"
+  url: https://www.openslr.org/12/
 - type: poster
   url: "#"
 - type: source
@@ -53,7 +59,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'RQA Comparison'
   focal_point: ""
   preview_only: false
 

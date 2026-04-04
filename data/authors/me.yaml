@@ -5,15 +5,21 @@ name:
   display: Tian Yueyao
   given: Yueyao
   family: Tian
-  alternate: 'Margot'  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: 'Margot'
+  pronunciation: ''
   pronouns: she/her
 postnominals:
 status:
   icon: "📖"
 role: Master's Student in Signal Processing and Machine Learning
 bio: |
-  I am .........
+  🚧🛠️  The Website Is Under Construction.  🛠️🚧
+
+  I am a Master's student in Signal Processing and Machine Learning at Tampere University. 
+  Building on my undergraduate foundation in Software Engineering, my research focuses on the intersection of nonlinear dynamics and 
+  deep neural networks. Under the supervision of Prof. Annamaria Mesaros, my current thesis work develops *ChaoNet* — a novel framework 
+  for speaker recognition that leverages chaos theory for robust audio representations. I enjoy working in dynamic, cross-cultural 
+  research environments, navigating technical challenges and explore the boundry of science.
 
 affiliations:
   - name: Tampere University, Finland
@@ -31,73 +37,59 @@ links:
     url: https://www.instagram.com/margotytiana/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Signal Processing
+  - Speech Signal Processing
+  - Image Signal Processing
+  - Machine Learning
+  - Deep Learning
+  - Audio Processing
+  - Chaotic Neural Networks
+  - Nonlinear Dynamics & Chaos Theory
+  - Speaker Recognition
+  - Robust Audio Representations
 
 education:
-  - degree: "MS in <br> Signal Processing and Machine Learning"
+  - degree: |
+      MS in
+
+      Signal Processing and Machine Learning
     institution: Tampere University, Finland
     start: 2024/08
     end: 2026/04 (expected)
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: "BS in <br> Software Engineering"
+      Thesis on ChaoNet: a novel speaker recognition framework integrating chaos theory 
+      with deep neural networks. Supervised by Prof. Annamaria Mesaros.
+  - degree: "BS in Software Engineering"
     institution: Tiangong University, China
     start: 2020/09
     end: 2024/06
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: PyTorch
         level: 5
-      - label: Cloud Computing
+      - label: Audio Signal Processing
+        level: 4
+      - label: High-Performance Computing (SLURM / HPC)
+        level: 4
+      - label: LaTeX
         level: 4
   - name: Research & Communication
     items:
-      - label: Academic Writing
+      - label: Academic Writing (EN / ZH)
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+      - label: Experimental Design & Ablation Studies
+        level: 5
+      - label: Data Visualization
         level: 4
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy

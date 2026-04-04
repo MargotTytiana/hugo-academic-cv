@@ -1,0 +1,12 @@
+/* 1. 从 Google Fonts 引入 Fjord One 字体 */
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+
+/* 2. 强行将网页全局正文替换为 Fjord One */
+html, body {
+  font-family: 'Fjord One', serif !important;
+}
+
+/* 3. 让所有的大标题也统一使用该字体，保持视觉一致性 */
+h1, h2, h3, h4, h5, h6, .text-xl, .text-2xl, .text-3xl, .font-bold {
+  font-family: 'Fjord One', serif !important;
+}

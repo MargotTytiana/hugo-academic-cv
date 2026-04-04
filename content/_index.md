@@ -39,27 +39,28 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '🔬 My Research'
+      subtitle: 'Bridging Software Engineering and Audio Machine Learning'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a researcher specializing in the intersection of speech signal processing and machine learning. Building on my foundation in software engineering, my mission is to develop robust, computationally efficient audio representation systems.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My current work at Tampere University, supervised by Prof. Annamaria Mesaros, focuses on developing *ChaoNet*. This novel framework integrates principles of nonlinear dynamics and chaos theory with deep neural networks to advance the state-of-the-art in speaker recognition.
 
-        Please reach out to collaborate 😃
+        By leveraging tools like PyTorch and High-Performance Computing (HPC), I apply rigorous experimental designs and ablation studies to solve complex audio challenges. I am always open to discussing new ideas or academic collaborations—please feel free to reach out! 😃
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Master Thesis
       filters:
         folders:
           - publications
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 1
+      
   - block: collection
     content:
       title: Recent Publications
@@ -70,15 +71,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+
   - block: collection
     id: news
     content:
