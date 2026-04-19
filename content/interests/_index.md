@@ -16,7 +16,9 @@ sections:
     content:
       title: Interests
       filters:
-        tag: Interests
+        folders:
+          - interests
+        tags: Interests
         kinds:
           - section
     design:
