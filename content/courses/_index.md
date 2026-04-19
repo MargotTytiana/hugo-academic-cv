@@ -1,22 +1,22 @@
 ---
-title: Courses
-summary: My courses
+title: Interests
+summary: My Interests
 type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/interests/*/**}'
     type: docs
     params:
       show_breadcrumb: true
 
 sections:
   - block: collection
-    id: courses
+    id: interests
     content:
-      title: Courses
+      title: Interests
       filters:
-        tag: Course
+        tag: Interests
         kinds:
           - section
     design:

@@ -11,4 +11,49 @@
   article .max-w-prose {
     max-width: 100% !important;
   }
+
+    /* Abstract 两端对齐 */
+  .max-w-prose.grid > div {
+    text-align: justify;
+  }
+
+    /* Skills 标签取消大写 */
+  .skills-list .skill-label,
+  [class*="skill"] span,
+  [class*="skill"] p {
+    text-transform: none !important;
+  }
+
+    /* ===== Skills 文字左对齐（修复两端对齐问题）===== */
+  .skills-name {
+    text-align: left !important;
+    text-transform: none !important;
+    display: block;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+
+  /* ===== 进度条背景 ===== */
+  .skills-wrapper {
+    width: 80%;
+    height: 15px !important;
+    background: rgba(148, 163, 184, 0.2) !important;
+    border-radius: 999px !important;
+    margin-bottom: 14px !important;
+    overflow: hidden;
+  }
+
+  /* ===== 进度条填充 - 渐变色 ===== */
+  .skills-percent {
+    height: 80% !important;
+    border-radius: 999px !important;
+    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%) !important;
+  }
+
+  /* ===== 每个 skill item 间距 ===== */
+  .skills-content {
+    margin-bottom: 2px;
+    margin-left: 3px;
+  }
 </style>

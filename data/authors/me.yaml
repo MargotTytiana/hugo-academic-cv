@@ -65,26 +65,83 @@ education:
     end: 2024/06
 
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
       - label: Python
         level: 5
-      - label: PyTorch
+      - label: C/C++
         level: 5
-      - label: Audio Signal Processing
+      - label: Java
         level: 4
-      - label: High-Performance Computing (SLURM / HPC)
+      - label: R
         level: 4
-      - label: LaTeX
+      - label: MATLAB
+        level: 5
+      - label: SQL
         level: 4
+
+  - name: Machine Learning & AI
+    items:
+      - label: Deep Learning (PyTorch)
+        level: 5
+      - label: Machine Learning
+        level: 4
+      - label: Neural Language Models
+        level: 4
+      - label: Computer Vision
+        level: 4
+      - label: Data Mining & Big Data Analysis
+        level: 4
+
+  - name: Signal Processing
+    items:
+      - label: Signal Processing (Theory & Applied)
+        level: 5
+      - label: Audio & Speech Processing
+        level: 5
+      - label: Image & Video Processing
+        level: 5
+      - label: Computational Imaging
+        level: 5
+      - label: Brain Connectivity Estimation
+        level: 3
+
+  - name: Software Engineering
+    items:
+      - label: Data Structures & Algorithms
+        level: 5
+      - label: Operating Systems & Computer Networks
+        level: 4
+      - label: Software Architecture & Design
+        level: 4
+      - label: Database Systems (PostgreSQL / Oracle)
+        level: 4
+      - label: Docker & Git (CI/CD)
+        level: 4
+
+  - name: Mathematics
+    items:
+      - label: Linear Algebra
+        level: 5
+      - label: Advanced Mathematics
+        level: 4
+      - label: Probability Theory & Statistics
+        level: 4
+      - label: Numerical Analysis
+        level: 5
+      - label: Discrete Mathematics
+        level: 4
+
   - name: Research & Communication
     items:
       - label: Academic Writing (EN / ZH)
         level: 5
       - label: Experimental Design & Ablation Studies
         level: 5
-      - label: Data Visualization
-        level: 4
+      - label: Data Visualization & LaTeX
+        level: 5
+      - label: Finnish
+        level: 3
 
 languages:
   - name: Chinese
