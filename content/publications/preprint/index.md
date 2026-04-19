@@ -10,7 +10,7 @@ publishDate: "2026-03-31T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["thesis"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -46,15 +46,9 @@ links:
   url: https://drive.google.com/file/d/1RqtpSIna04B5tagm4lh_uFQe-_QmSvxd/view?usp=drive_link
 - type: dataset
   url: https://www.openslr.org/12/
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
+- type: paper link
   label: Custom Link
-  url: http://example.org
+  url: content\publications\thesis-paper\thesis-paper.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -79,7 +73,7 @@ projects:
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+This work is now under the review, you may find the link to the paper later here [ChaoNet-Master Thesis](/publications/thesis-paper/) on LLMs.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
