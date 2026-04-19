@@ -15,6 +15,8 @@ sections:
     id: interests
     content:
       title: Interests
+      text: |
+        Here are the things that I care about.
       filters:
         folders:
           - interests
@@ -22,9 +24,10 @@ sections:
         kinds:
           - section
     design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+        view: article-grid
+        fill_image: false
+        columns: 3
+        show_date: false
+        show_read_time: false
+        show_read_more: false
 ---
