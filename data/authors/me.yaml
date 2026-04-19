@@ -93,3 +93,9 @@ languages:
   - name: English
     level: 4
     label: Fluent
+  - name: Korean
+    level: 2
+    label: Intermediate
+  - name: Finnish
+    level: 1
+    label: Beginner
