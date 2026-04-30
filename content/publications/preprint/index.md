@@ -45,6 +45,10 @@ links:
   url: https://www.openslr.org/12/
 - type: pdf
   url: /uploads/thesis-paper.pdf
+- type: preprint
+  url: https://urn.fi/URN:NBN:fi:tuni-202603233456
+- type: preprint
+  url: https://trepo.tuni.fi/bitstream/handle/10024/235361/TianYueyao.pdf?sequence=2&isAllowed=y
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -71,7 +75,7 @@ projects:
 ---
 
 > [!NOTE]
-> This work is now under the review, you may find the link to the paper later here [ChaoNet-Master Thesis](/uploads/thesis-paper.pdf) on offical website.
+> This work is now published, you may find the link to the paper here [ChaoNet-Master Thesis](https://urn.fi/URN:NBN:fi:tuni-202603233456) on offical website.
 
 <iframe 
   src="/uploads/thesis-paper.pdf" 

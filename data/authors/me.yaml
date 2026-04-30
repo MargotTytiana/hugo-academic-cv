@@ -55,7 +55,7 @@ education:
       Signal Processing and Machine Learning
     institution: Tampere University, Finland
     start: 2024/08
-    end: 2026/04 (expected)
+    end: 2026/04
     summary: |
       Thesis on ChaoNet: a novel speaker recognition framework integrating chaos theory 
       with deep neural networks. Supervised by Prof. Annamaria Mesaros.
